@@ -1,0 +1,25 @@
+
+
+/* etiquetas html por su nombre */
+/* EJEMPLOS: h1, h2, h3, p, a, li */
+
+h4 {
+    color: blue;
+    font-size: xx-large
+}
+
+/* selección por medio de ID´s  */
+/* <tag id="principal"></tag> para seleccionar id, se utiliza antes del nombre del id el simbolo # */
+
+#principal {
+    background-color:rgb(52, 193, 236);
+}
+
+/* selección por medio de class */
+/* <tag class="borde-personalizado"></tag> para seleccionar class, se utiliza antes del nombre de la clase el simbolo . */
+
+.borde-personalizado {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}

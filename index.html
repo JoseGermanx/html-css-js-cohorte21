@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola estudiantes Cohorte 21</title>
-    <link>
-    <script></script>  <!-- Comentario -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- Comentario -->
     <style>
         #titulo {
             font-size: 60px;
@@ -24,16 +24,17 @@
      <h1 id="titulo" class="color">Esto es un título</h1>
      <h2 id="subtitulo" class="color">Subtitulo 2</h2>
      <h3 id="subtitulo_3" class="color">Subtitulo 3</h3>
-     <h4>Subtitulo 4</h4>
+     <h4 id="x-change" onclick="cambiarTextoTitulo()">Subtitulo 4</h4>
+     <h4>Subtitulo 4.2</h4>
      <h5>Subtitulo 5</h5>
      <h6>Subtitulo 6</h6>
-     <button>Enviar</button>
-     <p id="principal" class="color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptas sunt reprehenderit esse omnis! Consequatur nemo recusandae ratione cumque explicabo voluptates id? Est sunt ipsa perspiciatis amet voluptate quisquam alias?</p>
+     <button onclick="aumentarTamano()" >Aumentar Tamaño</button>
+     <p id="principal" class="borde-personalizado">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptas sunt reprehenderit esse omnis! Consequatur nemo recusandae ratione cumque explicabo voluptates id? Est sunt ipsa perspiciatis amet voluptate quisquam alias?</p>
      <a href="otra-pagina.html" target="_blank">Ir a otra página</a>
      <br>
      <a href="https://www.google.com/" target="_blank">Ir a Google</a>
      <br>
-     <ul>
+     <ul class="borde-personalizado">
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
@@ -47,6 +48,7 @@
      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Google_Logo_%281998%29.png" style="width: 300px;">
      <br>
      <img src="/images/image.png" style="width: 100px;">
+     <script src="js.js"></script>
    </body>
 
 </html>
